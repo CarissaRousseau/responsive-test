@@ -1,0 +1,107 @@
+/*Desktop smaller then max size~*/
+@media screen and (max-width: 1000px) {
+    wrapper {
+        width:100%;
+    }
+    article{
+      width:70%;
+    }
+    #sidebar{
+      width:25%;
+    }
+}
+/* Portrait ipad*/
+@media only screen
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (orientation: portrait)
+  and (-webkit-min-device-pixel-ratio: 2)  {
+
+  wrapper {
+      width:100%;
+  }
+  article{
+    width:100%;
+  }
+  h2{
+    margin-top:10px;
+  }
+  #sidebar{
+    width:100%;
+    border-top: 1px solid black;
+    border-left:none;
+  }
+  #sidebar li{
+    width:30%;
+    display: inline-block;
+    float:left;
+    margin-right: 3%;
+  }
+
+}
+/* Portrait Galaxy tablet */
+@media
+  (max-device-width: 800px)
+  and (orientation: portrait) { {
+    wrapper {
+        width:100%;
+    }
+    article{
+      width:100%;
+    }
+    h2{
+      margin-top:10px;
+    }
+    #sidebar{
+      width:100%;
+      border-top: 1px solid black;
+      border-left:none;
+    }
+    #sidebar li{
+      width:30%;
+      display: inline-block;
+      float:left;
+      margin-right: 3%;
+    }
+}
+/* ----------- iPhone 6+ ----------- */
+
+/* Portrait and Landscape*/
+@media only screen
+  and (min-device-width: 414px)
+  and (max-device-width: 736px)
+  and (-webkit-min-device-pixel-ratio: 3) {
+    wrapper {
+        width:100%;
+    }
+    article{
+      width:100%;
+    }
+    h2{
+      margin-top:10px;
+    }
+    #sidebar{
+      width:100%;
+      border-top: 1px solid black;
+      border-left:none;
+    }
+    #sidebar li{
+      width:30%;
+      display: inline-block;
+      float:left;
+      margin-right: 3%;
+    }
+}
+    nav span{
+      display: inline-block;
+      pointer-events: auto;
+      background: url('../assets/hamburger.png') no-repeat;
+      background-size: 40px 40px;
+      width:40px;
+      height:40px;
+      margin-top: 2px;
+    }
+    nav ul{
+      display: none;
+    }
+}
